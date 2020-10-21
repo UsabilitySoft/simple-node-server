@@ -1,0 +1,22 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Simple node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request-multiple-urls": "file:../request-multiple-urls"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
