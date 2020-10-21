@@ -10,7 +10,9 @@
 ___
 ## Usage
 
-Run `npm install` to install dependancies.
+**From the command line:**
+
+Run `npm install` to install dependencies.
 
 Run `npm run start` to start the application.
 
